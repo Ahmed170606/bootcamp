@@ -20,3 +20,5 @@ Maak een printscreen van je repo en plaats deze in de map uitwerkingen.
 
 Opdracht 6:
 Zijn er mensen in je klas die moeite hebben met Git? Probeer ze eens te helpen!
+
+dit was het

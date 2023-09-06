@@ -1,7 +1,6 @@
 
 print('toegangscontrole')
-breedte= int(  
-    input ('hoe breed is uw wagen?'))
+breedte= int(  input ('hoe breed is uw wagen?'))
 
 
 print(breedte <= 2900)

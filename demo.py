@@ -1,8 +1,13 @@
+import time
 
-print('toegangscontrole')
-breedte= int(  input ('hoe breed is uw wagen?'))
+print('starting countdown for satelite')
 
+counter = 10
 
-print(breedte <= 2900)
-if breedte <= 2900:
-    print('beste chauffeur, je mag door')
+while counter > 0:
+    time.sleep(0.1)
+    print(counter)
+    counter = counter - 1   
+
+if counter == 5:
+    print('hi')

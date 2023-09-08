@@ -1,6 +1,11 @@
-naam = input ('hoe heet je')
-leeftijd =  input ('wat is je leeftijd in jaren?') # < type of string
+TE_RADEN_WOORD = 'python'
+doorgaan = 'true'
+print('welkom bij mijn supergame....')
 
-verschil = int (leeftijd) - 20
-
-print('dag' + naam + 'je bent' + str (verschil) + 'jaar ouder dan 18')
+while doorgaan == True:
+    geraden_woord = input ('wat is het woord')
+    if geraden_woord == TE_RADEN_WOORD:
+        print (f'je hebt het woord geraden, het was: {TE_RADEN_WOORD}')
+        doorgaan = False
+    else:
+        print('het woord is helaas fout!')

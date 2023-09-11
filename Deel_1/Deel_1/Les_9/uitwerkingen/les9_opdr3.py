@@ -1,19 +1,10 @@
 
-# leeftijd = int (input('sollicitatie gesprek, voer je leeftijd in: '))
-# snor = 'j'  
-# diploma = 'n'
-
-# if (leeftijd >= 18 and snor == 'j') or (leeftijd < 18 and diploma == 'j'):
-#     print('Je bent aangenomen') 
-# else:
-#     print(input ('sorry we nemen u niet aan, tenzij u een diploma heeft: (ja/nee)'))
-
-
 leeftijd = int (input('sollicitatie gesprek, voer je leeftijd in: '))
-snor = 'j'  # 'j' voor ja, 'n' voor nee
-diploma = 'j'  # 'j' voor ja, 'n' voor nee
+snor = input('Heeft u een snor (ja/nee)')  
+diploma = 'n'
 
-if (leeftijd >= 18 and snor == 'j') or (leeftijd < 18 and diploma == 'j'):
-    print("Je bent aangenomen!")
+if leeftijd >= 18 and snor == 'ja' or leeftijd < 18 and diploma == 'ja'
+    print('Je bent aangenomen') 
 else:
-    print("Je bent niet aangenomen.")
+    print(input ('sorry we nemen u niet aan, tenzij u een diploma heeft: (ja/nee)'))
+    print('u bent aangenomen')

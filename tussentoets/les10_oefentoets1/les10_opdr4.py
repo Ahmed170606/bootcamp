@@ -3,9 +3,11 @@ prijs_m2 = 40
 
 if oppervlakte >= 150:
     prijs_m2 = 35
-if oppervlakte >= 80:
+elif oppervlakte >= 80:
     prijs_m2 = 38
 
 totaal = prijs_m2 * oppervlakte
 
-print(f'Het totaalbedrag is voor een oppervlakte van {oppervlakte} m2 is: Eur ' + str(totaal))
+print(f'Het totaalbedrag voor een oppervlakte van {oppervlakte} m2 is: Eur {totaal}')
+
+# elif toegevoegd om het juist prijs te bepalen

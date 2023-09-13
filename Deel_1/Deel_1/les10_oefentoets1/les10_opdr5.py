@@ -8,7 +8,7 @@ prijs_m2 = 40
 while aantal_meldingen > 0:
     print("Een moment geduld a.u.b., de scherpste prijs wordt berekend.")
     sleep(1)
-    aantal_meldingen = 1
+    aantal_meldingen -= 1
 
 totaal = prijs_m2 * oppervlakte
 

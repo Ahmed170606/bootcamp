@@ -1,3 +1,5 @@
+import random
+
 name = input ('Wat is jouw naam? ')
 print('Hallo', name)
 
@@ -17,7 +19,7 @@ else:
 
 
 favoriteColor = input('En wat is je favoriete kleur? ') 
-trueOrFalse = str('random.randint 0,1')
+trueOrFalse = random.randint [0,1]
 if True:
     print('Ik vind dat ook een mooie kleur!')
 

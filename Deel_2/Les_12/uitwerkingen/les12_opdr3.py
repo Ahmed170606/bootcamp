@@ -1,4 +1,4 @@
-woord = 'aaaaaaaaaaaaaaaaaaaaaaaaaaa'
+woord = 'appel'
 aantal_tekens = len(woord)
 
 

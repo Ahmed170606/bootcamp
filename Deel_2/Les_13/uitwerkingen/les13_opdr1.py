@@ -1,11 +1,11 @@
 naam = input("Wat is je naam: ")
 
-kleuren_verzameling = ("rood", "blauw", "groen", "geel", "paars")
+kleuren_11= ("blauw", "rood", "groen", "geel", "paars")
 
 favoriete_kleur = input("Wat is je favoriete kleur: ")
 
 
-if favoriete_kleur in kleuren_verzameling:
+if favoriete_kleur in kleuren_11:
     print(f" hoi {naam}, je favoriete kleur is {favoriete_kleur}, dat is echt geweldig!")
 else:
     print("Deze kleur is niet zo geweldig!")

@@ -3,7 +3,7 @@ import random
 
 termen = ('string' , 'float', 'integer' , 'boolean')
 
-term = input('geef me een type value')
+term = input('geef me een type value: ')
 
 if term in termen:
     print('bingo!')

@@ -2,7 +2,6 @@ poke = ['yur']
 
 poke.remove('yur')
 
-
 poke.insert(3, 'x1x1')
 
 for p in range(4):
@@ -13,3 +12,7 @@ for p in range(4):
 print(poke)
 for p in poke:
     print(p)
+
+
+
+

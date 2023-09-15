@@ -1,13 +1,9 @@
-def getGetal():
-    getalIngevoerd = False
-    while not getalIngevoerd:
-        try:
-            invoer = (input('geef een getal'))
-            getal = int(invoer)
-            getalIngevoerd = True
-        except:
-            print(f'"{invoer}"dat is geen getal. Probeer nog eens')
-    return getal
-        
-ingevoerd = getGetal()
-print(f'je hebt ingevoerd: {ingevoerd} ')
+def bereken_som(a, b):
+    som = a + b
+    return som
+
+
+
+
+# Schrijf een functie met twee parameters (integers).
+# De functie retourneert de som van de twee parameters.

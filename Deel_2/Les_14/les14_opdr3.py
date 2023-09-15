@@ -10,7 +10,7 @@ except ValueError:
 
 print("Bijgewerkte lijst van fruitsoorten:")
 for fruit in fruitlijst:
-    print(fruit)
+     print(fruit)
 
 
 # Schrijf een programma dat een lijst van fruitsoorten maakt en vervolgens de gebruiker vraagt om een

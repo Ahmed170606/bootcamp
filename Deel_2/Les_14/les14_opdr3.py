@@ -1,13 +1,16 @@
-fruiten = ['appel', 'banaan','kiwi', 'mango', 'ananas', 'watermeloen' ]
+fruitlijst = ["appel", "banaan", "peer", "sinaasappel", "kiwi"]
 
-for fruit1 in range(6):
-    fruit1 = input(f'noem een fruit {fruit1 + 1} in: ')
-    fruiten.append(fruit1)
+verwijderen_fruit = input("Voer een fruitsoort in om te verwijderen: ")
 
+try:
+    fruitlijst.remove(verwijderen_fruit)
+    print(f"{verwijderen_fruit} is verwijderd uit de lijst.")
+except ValueError:
+    print(f"{verwijderen_fruit} is niet gevonden in de lijst.")
 
-
-
-
+print("Bijgewerkte lijst van fruitsoorten:")
+for fruit in fruitlijst:
+    print(fruit)
 
 
 # Schrijf een programma dat een lijst van fruitsoorten maakt en vervolgens de gebruiker vraagt om een

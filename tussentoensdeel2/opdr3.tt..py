@@ -4,8 +4,4 @@ b = 10
 X = a
 a = b
 b = X
-
 print(f"a = {a}, b = {b}")
-
-print("a =", a)
-print("b =", b)

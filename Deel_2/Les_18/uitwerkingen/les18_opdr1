@@ -1,0 +1,38 @@
+import random
+
+aantal_rondes = 0
+aantal_fouten = 0
+
+def is_geldig_getal(getal):
+    return 1 <= getal <= 5
+
+while True:
+    aantal_rondes += 1
+
+    random_getal = random.randint(1, 5)
+    
+    print(f"Ronde {aantal_rondes}")
+    
+    while True:
+        
+        gebruikers_getal = int(input("Raad het getal tussen 1 en 5: "))
+        
+        if not is_geldig_getal(gebruikers_getal):
+            print("Ongeldige invoer. Voer een getal tussen 1 en 5 in.")
+            continue
+    
+        
+        if gebruikers_getal == random_getal:
+            print("\033[92mJe hebt het getal goed geraden!\033[0m") 
+            break 
+        else:
+            aantal_fouten += 1
+            print("\033[91mJe hebt het getal niet goed geraden. Probeer opnieuw!\033[0m")  
+    
+    speel_nog_een_keer = input("Wil je nog een ronde spelen? (ja/nee): ").lower()
+    if speel_nog_een_keer != 'ja':
+        break
+
+print(f"\nHet spel is afgelopen.")
+print(f"Aantal gespeelde rondes: {aantal_rondes}")
+print(f"Aantal keer fout geraden: {aantal_fouten}")
